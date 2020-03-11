@@ -95,13 +95,28 @@ class ViewController: UIViewController, ARSCNViewDelegate {
 
         sc2.runAction(SCNAction.sequence([SCNAction.wait(duration: 2.0),SCNAction.scale(to: 0.006, duration: 0.5)]))
         
-        //particle
+        //particle not working dont know why
        let particle = SCNParticleSystem(named: "particle.scnp", inDirectory: nil)!
        let particleNode = SCNNode()
         
         container.addChildNode(particleNode)
         particleNode.addParticleSystem(particle)
-    }
-    
-    
+        
+        //gonna add another type of particle
+        
+        let emitter = SKEmitterNode()
+        let emitterPaused = emitter.isPaused
+        
+        if emitterPaused {
+            
+            emitter.isPaused = false
+        }
+        
+        emitter.advanceSimulationTime(60)
+        
+        if emitterPaused{
+            
+            emitter.isPaused = true
+        }
+        }
 }
