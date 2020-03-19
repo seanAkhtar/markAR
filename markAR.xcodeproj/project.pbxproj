@@ -16,7 +16,6 @@
 		413C682A24160B5C00399C44 /* video.gif in Resources */ = {isa = PBXBuildFile; fileRef = 413C682924160B5C00399C44 /* video.gif */; };
 		413C683224170D2000399C44 /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 413C683124170D1F00399C44 /* video.mp4 */; };
 		413C683424170DDB00399C44 /* particle.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 413C683324170DDB00399C44 /* particle.scnp */; };
-		413C6836241831F400399C44 /* MyParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 413C6835241831F400399C44 /* MyParticle.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +30,6 @@
 		413C682924160B5C00399C44 /* video.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = video.gif; sourceTree = "<group>"; };
 		413C683124170D1F00399C44 /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.mp4; sourceTree = "<group>"; };
 		413C683324170DDB00399C44 /* particle.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = particle.scnp; sourceTree = "<group>"; };
-		413C6835241831F400399C44 /* MyParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyParticle.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +72,6 @@
 				413C682024160B0400399C44 /* LaunchScreen.storyboard */,
 				413C682324160B0400399C44 /* Info.plist */,
 				413C683324170DDB00399C44 /* particle.scnp */,
-				413C6835241831F400399C44 /* MyParticle.sks */,
 			);
 			path = markAR;
 			sourceTree = "<group>";
@@ -144,7 +141,6 @@
 				413C681F24160B0400399C44 /* Assets.xcassets in Resources */,
 				413C681D24160B0200399C44 /* Main.storyboard in Resources */,
 				413C683224170D2000399C44 /* video.mp4 in Resources */,
-				413C6836241831F400399C44 /* MyParticle.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
